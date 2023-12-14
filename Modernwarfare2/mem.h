@@ -1,6 +1,5 @@
 #pragma once
 #include "utility.h"
-//#include "m3m0re.h"
 
 #define ADD_INTERFACE( type, var_name, address ) type* var_name = address.cast< type* >();
 #define ADD_INTERFACE_CUSTOM( type, var_name, function ) type* var_name = function();
