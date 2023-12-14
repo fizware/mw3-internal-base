@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{60a3bc45-4a06-4e33-a75a-e8286af33079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="context">
+      <UniqueIdentifier>{b95e357d-659f-46eb-962a-570a9fe3b7da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="font">
+      <UniqueIdentifier>{7a94f0b2-3916-460d-a2c9-84171e55c776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper">
+      <UniqueIdentifier>{413febc5-a47d-48c9-9959-d5e578016846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{77fa06d9-bcd3-46d3-b10c-d6da9303d939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kiero">
+      <UniqueIdentifier>{19fe4ee4-29da-4663-a917-5868fea32cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{23298b4f-f199-448c-9c0e-9cbbf2c8335c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{4941c019-4582-4714-95bb-33e637fada72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\iw9_engine">
+      <UniqueIdentifier>{55e44cb8-bfaf-4eb5-9aef-0cb17bdc52c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{a3042787-4ab7-4c5e-b7ea-42a87cff1f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{08afc918-7e3d-4fb9-ba8f-aae4da3a097d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\iw9_engine\datatypes">
+      <UniqueIdentifier>{1d82c582-73a5-45cf-aa7a-38a1cac20a0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_impl_dx12.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\ImGui_ShaderBlobs.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\kiero\kiero.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="address.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="lazyimporter.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h" />
+    <ClInclude Include="mem.h">
+      <Filter>context</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg.h">
+      <Filter>context</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_protect.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="spoofcall.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="font_logo.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_draw_api.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dm_serif.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="inter.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="hash.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="col_t.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="secured_vec3_t.h">
+      <Filter>sdk\iw9_engine\datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="vec.h">
+      <Filter>sdk\iw9_engine\datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="sys.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="includes\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_impl_dx12.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\ImGui_ShaderBlobs.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\kiero\kiero.cpp">
+      <Filter>kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="utility.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="vec.cpp">
+      <Filter>sdk\iw9_engine\datatypes</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="includes\imgui\LICENSE.txt">
+      <Filter>imgui</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="spoof.asm">
+      <Filter>utilities</Filter>
+    </MASM>
+    <MASM Include="NtUserSendInput.asm">
+      <Filter>utilities</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
